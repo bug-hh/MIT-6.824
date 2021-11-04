@@ -1,4 +1,4 @@
-package main
+package mrapps
 
 //
 // an indexing application "plugin" for MapReduce.

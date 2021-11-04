@@ -1,4 +1,4 @@
-package main
+package mrapps
 
 //
 // a MapReduce pseudo-application to test that workers

@@ -1,4 +1,4 @@
-package main
+package mrapps
 
 //
 // same as crash.go but doesn't actually crash.

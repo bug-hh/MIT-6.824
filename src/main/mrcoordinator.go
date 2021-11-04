@@ -20,8 +20,11 @@ func main() {
 		os.Exit(1)
 	}
 
+	//fmt.Println("len(os.Args): ", len(os.Args))
+	//fmt.Println("os.Args", os.Args)
+
 	m := mr.MakeCoordinator(os.Args[1:], 10)
-	for m.Done() == false {
+	for !m.Done() {
 		time.Sleep(time.Second)
 	}
 
